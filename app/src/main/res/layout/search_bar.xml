@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="username"
+        android:background="@drawable/input_box"
+        android:drawableStart="@drawable/search"
+        android:paddingStart="10dp"
+        android:drawablePadding="12dp"
+        android:elevation="4dp"
+        android:hint="Search"
+        android:inputType="text"
+        android:paddingEnd="0dp"
+        android:textColorHint="#ADADAF"
+        android:textSize="14sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+</LinearLayout>

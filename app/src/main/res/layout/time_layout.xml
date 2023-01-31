@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#C5C5C5"
+        android:textSize="18sp"
+        android:text="Hour"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/time_slack"
+        android:textStyle="bold"
+        android:textColor="#FA4A0C"
+        android:textSize="18sp"
+        android:text="00"
+        android:gravity="center"
+        android:elevation="4dp"
+        />
+
+
+</LinearLayout>

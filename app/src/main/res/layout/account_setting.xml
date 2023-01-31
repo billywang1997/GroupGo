@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FAF9F9">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_layout"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingBottom="14dp"
+        android:paddingTop="6dp"
+        >
+
+        <ImageView
+            android:id="@+id/search_account"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/search_account"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/search_account"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="UsernameXX"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="6dp"
+            android:textColor="#333232"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+
+        <ImageView
+            android:id="@+id/pen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/username"
+            app:layout_constraintStart_toEndOf="@id/username"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/pencil_box"/>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@id/search_account"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="#D9D9D9"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            />
+
+        <ImageView
+            android:id="@+id/lock"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line1"
+            android:src="@drawable/lock"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="10dp"
+            />
+
+        <TextView
+            android:id="@+id/modify_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/lock"
+            app:layout_constraintTop_toBottomOf="@id/line1"
+            android:text="Modify Password"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="6dp"
+            android:textColor="#333232"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/tv_log_out"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/bg_add_location"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:text="LOG OUT"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="13.5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="50dp"/>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

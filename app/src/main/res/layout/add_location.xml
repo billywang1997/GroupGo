@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="40dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/bg_manage_group"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="Place Address"
+                    android:gravity="center"
+                    android:textColor="#333232"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="6dp"
+                    android:paddingBottom="4dp"
+                    android:textSize="11.5sp"/>
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="match_parent"
+                    android:background="#FA4A0C"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <EditText
+                    android:id="@+id/address_edit"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:hint="Enter the place address"
+                    android:textStyle="bold"
+                    android:textSize="10sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#333232"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="6dp"
+                    android:paddingBottom="4dp"/>
+
+                <ImageView
+                    android:id="@+id/address_reselection"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/navigation_plane"
+                    android:layout_marginTop="6dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/bg_manage_group"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/address">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="Place Name"
+                    android:gravity="center"
+                    android:textColor="#333232"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="6dp"
+                    android:paddingBottom="4dp"
+                    android:textSize="11.5sp"/>
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="match_parent"
+                    android:background="#FA4A0C"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <EditText
+                    android:id="@+id/name_edit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="6dp"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="4dp"
+                    android:hint="Enter the place name"
+                    android:textColor="#333232"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tag"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/bg_manage_group"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/name">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="Tag
+            (Optional)"
+                    android:gravity="center"
+                    android:textColor="#333232"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="6dp"
+                    android:paddingBottom="4dp"
+                    android:textSize="11.5sp"/>
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="match_parent"
+                    android:background="#FA4A0C"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/tag_food"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/grey"
+                    android:text="Food"
+                    android:textSize="9sp"
+                    android:gravity="center"
+                    android:textColor="#333232"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingBottom="4dp"/>
+
+                <TextView
+                    android:id="@+id/tag_drink"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/grey"
+                    android:text="Drink"
+                    android:textSize="9sp"
+                    android:gravity="center"
+                    android:textColor="#333232"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingBottom="4dp"/>
+
+                <TextView
+                    android:id="@+id/tag_indoor"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/grey"
+                    android:text="Indoor Activity"
+                    android:textSize="9sp"
+                    android:gravity="center"
+                    android:textColor="#333232"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingBottom="4dp"/>
+
+                <TextView
+                    android:id="@+id/tag_outdoor"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/grey"
+                    android:text="Outdoor Activity"
+                    android:textSize="9sp"
+                    android:gravity="center"
+                    android:textColor="#333232"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingBottom="4dp"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/reason_frame"
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tag"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/bg_manage_group"
+                android:hint="Type here"
+                android:paddingStart="20dp"
+                android:paddingTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="#333232"
+                android:gravity="top|left"
+                android:textSize="14dp"
+                />
+
+            <TextView
+                android:id="@+id/reason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/reason_frame"
+                app:layout_constraintTop_toBottomOf="@+id/tag"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/margin"
+                android:text=" Recommend Reason "
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                android:textColor="#FA4A0C"
+                />
+
+            <TextView
+                android:id="@+id/photo_frame"
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/reason_frame"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/bg_manage_group"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="#FA4A0C"
+                android:text="+"
+                android:gravity="center"
+                android:textSize="36sp"
+                />
+
+            <TextView
+                android:id="@+id/photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/photo_frame"
+                app:layout_constraintTop_toBottomOf="@+id/reason_frame"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/margin"
+                android:text=" Add Photo / Video "
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                android:textColor="#FA4A0C"
+                />
+
+            <ImageView
+                android:id="@+id/photo1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintStart_toStartOf="@id/photo_frame"
+                app:layout_constraintTop_toBottomOf="@+id/photo_frame"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="20dp"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:id="@+id/photo2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintStart_toEndOf="@id/photo1"
+                app:layout_constraintTop_toBottomOf="@+id/photo_frame"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="10dp"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:id="@+id/photo3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintStart_toEndOf="@id/photo2"
+                app:layout_constraintTop_toBottomOf="@+id/photo_frame"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="10dp"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:id="@+id/photo4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintStart_toEndOf="@id/photo3"
+                app:layout_constraintTop_toBottomOf="@+id/photo_frame"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="10dp"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:id="@+id/photo5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintStart_toEndOf="@id/photo4"
+                app:layout_constraintTop_toBottomOf="@+id/photo_frame"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="10dp"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:id="@+id/photo6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintStart_toEndOf="@id/photo5"
+                app:layout_constraintTop_toBottomOf="@+id/photo_frame"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="10dp"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:id="@+id/photo7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@id/photo6"
+                app:layout_constraintTop_toBottomOf="@+id/photo_frame" />
+
+            <TextView
+                android:id="@+id/tv_post"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_add_location"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="POST"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="13.5sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintTop_toBottomOf="@id/photo1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

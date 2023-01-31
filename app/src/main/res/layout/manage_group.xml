@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FAF9F9">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_layout"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingBottom="6dp"
+        >
+
+        <ImageView
+            android:id="@+id/search_account"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/search_account"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            />
+
+        <TextView
+            android:id="@+id/group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/search_account"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Group XX"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="6dp"
+            android:textColor="#333232"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/group_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/search_account"
+            app:layout_constraintTop_toBottomOf="@id/group_name"
+            android:text="IDXXXXXX"
+            android:layout_marginStart="6dp"
+            android:textColor="#ADADAF"
+            android:textSize="10sp"
+            />
+
+        <ImageView
+            android:id="@+id/pen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/group_name"
+            app:layout_constraintStart_toEndOf="@id/group_name"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/pencil_box"/>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@id/search_account"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="#D9D9D9"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            />
+
+        <ImageView
+            android:id="@+id/lock"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line1"
+            android:src="@drawable/lock"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            />
+
+        <TextView
+            android:id="@+id/modify_group_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/lock"
+            app:layout_constraintTop_toBottomOf="@id/line1"
+            android:text="Modify Group Pin"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="6dp"
+            android:textColor="#333232"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@id/lock"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="#D9D9D9"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            />
+
+        <ImageView
+            android:id="@+id/group"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/line2"
+            android:src="@drawable/group"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:id="@+id/group_members"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/group"
+            app:layout_constraintTop_toBottomOf="@id/line2"
+            android:text="Group Members"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="6dp"
+            android:textColor="#333232"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

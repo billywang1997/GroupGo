@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FA4A0C">
+
+
+    <LinearLayout
+        android:id="@+id/filters"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginStart="2dp"
+        >
+
+
+
+        <LinearLayout
+            android:id="@+id/type_filter"
+            android:layout_width="0dp"
+            android:layout_weight="1.28"
+            android:layout_height="38dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_layout"
+            >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="26dp"
+                android:src="@drawable/filter"
+                android:layout_margin="6dp"
+                android:layout_gravity="center"
+                />
+
+
+            <Spinner
+                android:id="@+id/filter"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="2dp"
+                android:autofillHints="username"
+                android:spinnerMode="dropdown"
+                android:drawablePadding="19dp"
+                android:elevation="4dp"
+                android:hint="Type"
+                android:inputType="text"
+                android:paddingStart="8dp"
+                android:paddingEnd="0dp"
+                android:paddingBottom="8dp"
+                android:textColorHint="#969FAA"
+                android:textSize="14sp"
+                tools:ignore="LabelFor"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/votes_filter"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="38dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_layout"
+            android:layout_marginStart="6dp"
+            >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/people"
+                android:layout_margin="6dp"
+                android:layout_gravity="center"
+                />
+
+
+            <Spinner
+                android:id="@+id/votes"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="2dp"
+                android:autofillHints="username"
+                android:spinnerMode="dropdown"
+                android:drawablePadding="19dp"
+                android:elevation="4dp"
+                android:hint="Votes"
+                android:inputType="text"
+                android:paddingStart="8dp"
+                android:paddingEnd="0dp"
+                android:paddingBottom="8dp"
+                android:textColorHint="#969FAA"
+                android:textSize="14sp"
+                tools:ignore="LabelFor"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map_this"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/filters"
+        tools:context="com.example.myapplication.add_location_management.MapsActivityCurrentPlace" />
+
+</LinearLayout>

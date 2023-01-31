@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.12290167865707434" />
+        <entry key="app/src/main/res/drawable/bg_add_location.xml" value="0.164" />
+        <entry key="app/src/main/res/drawable/bg_layout.xml" value="0.101896728515625" />
+        <entry key="app/src/main/res/drawable/bg_manage_group.xml" value="0.164" />
+        <entry key="app/src/main/res/drawable/black_frame.xml" value="0.205" />
+        <entry key="app/src/main/res/drawable/editbackground.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/gradient_button.xml" value="0.164" />
+        <entry key="app/src/main/res/drawable/grey.xml" value="0.205" />
+        <entry key="app/src/main/res/drawable/grey_background.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/input_box.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/margin.xml" value="0.205" />
+        <entry key="app/src/main/res/drawable/place_background.xml" value="0.195" />
+        <entry key="app/src/main/res/drawable/red_button.xml" value="0.205" />
+        <entry key="app/src/main/res/drawable/search_bar.xml" value="0.205" />
+        <entry key="app/src/main/res/drawable/selector.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/time_slack.xml" value="0.164" />
+        <entry key="app/src/main/res/drawable/top_radius_card.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/vote_selector.xml" value="0.205" />
+        <entry key="app/src/main/res/layout/account_setting.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_private_policy.xml" value="0.15806159420289856" />
+        <entry key="app/src/main/res/layout/add_group.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/layout/add_location.xml" value="0.24516129032258063" />
+        <entry key="app/src/main/res/layout/add_photo.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/add_reason.xml" value="0.27489624023437503" />
+        <entry key="app/src/main/res/layout/bottom_dialog.xml" value="0.28020833333333334" />
+        <entry key="app/src/main/res/layout/choose_location_card.xml" value="0.3051640828450522" />
+        <entry key="app/src/main/res/layout/choose_location_page.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/choose_place_list.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/count_down.xml" value="0.2791666666666667" />
+        <entry key="app/src/main/res/layout/create_group.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/layout/custom_info_contents.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/directly_use.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/google_place_search.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/google_search_auto.xml" value="0.2498199462890625" />
+        <entry key="app/src/main/res/layout/group_member_list.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/group_members_page.xml" value="0.18697916666666667" />
+        <entry key="app/src/main/res/layout/home_page.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_dropdown.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/item_select.xml" value="0.28125" />
+        <entry key="app/src/main/res/layout/list_complete_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/location_list_card.xml" value="0.21452456054687497" />
+        <entry key="app/src/main/res/layout/location_list_page.xml" value="0.18697916666666667" />
+        <entry key="app/src/main/res/layout/log_in.xml" value="0.1799285888671875" />
+        <entry key="app/src/main/res/layout/main_page.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/manage_group.xml" value="0.37669932047526045" />
+        <entry key="app/src/main/res/layout/manage_group_page.xml" value="0.26614583333333336" />
+        <entry key="app/src/main/res/layout/map_filter.xml" value="0.29065704345703125" />
+        <entry key="app/src/main/res/layout/map_fragment.xml" value="0.2333811442057292" />
+        <entry key="app/src/main/res/layout/modify_group_name.xml" value="0.2598958333333333" />
+        <entry key="app/src/main/res/layout/modify_group_pin.xml" value="0.2552078247070313" />
+        <entry key="app/src/main/res/layout/modify_nickname.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/layout/modify_password.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/layout/my_group_list.xml" value="0.2598958333333333" />
+        <entry key="app/src/main/res/layout/my_groups_page.xml" value="0.13489532470703125" />
+        <entry key="app/src/main/res/layout/nothing.xml" value="0.2598958333333333" />
+        <entry key="app/src/main/res/layout/one_line_item.xml" value="0.265625" />
+        <entry key="app/src/main/res/layout/photo_bottom_dialog.xml" value="0.28177083333333336" />
+        <entry key="app/src/main/res/layout/photo_exhibit.xml" value="0.18697916666666667" />
+        <entry key="app/src/main/res/layout/place_address_item.xml" value="0.21343078613281252" />
+        <entry key="app/src/main/res/layout/place_detail.xml" value="0.26425476074218757" />
+        <entry key="app/src/main/res/layout/recommend_reason_list.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/search_bar.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/search_list_item.xml" value="0.35506056882022474" />
+        <entry key="app/src/main/res/layout/select_on_map.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/sign_up.xml" value="0.2332812101944633" />
+        <entry key="app/src/main/res/layout/start_page.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/layout/time_layout.xml" value="0.5509310515030571" />
+        <entry key="app/src/main/res/layout/vote.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/menu/current_place_menu.xml" value="0.20885416666666667" />
+        <entry key="app/src/main/res/xml/file_paths.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/xml/home_page.xml" value="0.12895355224609376" />
+        <entry key="app/src/main/res/xml/main.xml" value="0.16913604736328125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
